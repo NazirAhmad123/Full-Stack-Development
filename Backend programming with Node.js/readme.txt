@@ -1,1 +1,3 @@
-The content will be added soon.
+What is Node.js?
+
+Short answer: JavaScript on the server.
