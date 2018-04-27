@@ -1,1 +1,1 @@
-the content will be added soon.
+The content will be added soon.
