@@ -1,0 +1,27 @@
+<head>
+  <title>QuickTodos</title>
+</head>
+
+<body>
+  {{> main}}
+</body>
+
+<template name="main">
+  <header>
+    <h1>{{title}}</h1>
+    <form class="add-todo">
+      <input type="text" name="text" placeholder="Add Todo...">
+      <input type="text" name="time" placeholder="Add Time...">
+      <button type="submit">Add</button>
+    </form>
+  </header>
+  <ul>
+    {{#each todos}}
+      {{> todo}}
+    {{/each}}
+  </ul>
+</template>
+
+<template name="todo">
+  <li><strong>{{time}}:</strong> {{text}}</li>
+</template>
