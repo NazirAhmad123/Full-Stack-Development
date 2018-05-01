@@ -1,0 +1,100 @@
+db.projects.insert({
+	name: 'Company Website',
+	category: 'Web Design',
+	due_date: new Date('2016-12-12'),
+	technologies: ['HTML', 'CSS', 'JavaScript'],
+	developers: [
+		{
+			name:'Brad Traversy',
+			role: 'Head Programmer'		
+		},
+		{
+			name:'John Doe',
+			role: 'Designer'
+		}
+	],
+	client: {
+		name: 'Steven Smith',
+		email: 'ssmith@gmail.com',
+		phone: '555-555-5555'
+	},
+	cost: 2000
+});
+
+db.projects.insert([
+{
+	name: 'Blog Application',
+	category: 'Web Programming',
+	due_date: new Date('2017-01-03'),
+	technologies: ['HTML', 'CSS', 'JavaScript', 'PHP', 'MySQL'],
+	developers: [
+		{
+			name:'Tara Harris',
+			role: 'Head Programmer'		
+		},
+		{
+			name:'Will Thompson',
+			role: 'Designer'
+		},
+		{
+			name:'Sara Freeman',
+			role: 'Programmer'
+		}
+	],
+	client: {
+		name: 'Heather Williams',
+		email: 'hwilliams@gmail.com',
+		phone: '444-444-4444'
+	},
+	cost: 6000
+},
+{
+	name: 'Ecommerce Store',
+	category: 'Web Programming',
+	due_date: new Date('2017-02-06'),
+	technologies: ['HTML', 'CSS', 'JavaScript', 'Ruby On Rails'],
+	developers: [
+		{
+			name:'Jake Bloom',
+			role: 'Head Programmer'		
+		},
+		{
+			name:'Mike George',
+			role: 'Designer'
+		},
+		{
+			name:'Laura Williams',
+			role: 'Programmer'
+		}
+	],
+	client: {
+		name: 'Harry White',
+		email: 'hwhite@gmail.com',
+		phone: '333-333-3333'
+	},
+	cost: 10000
+},
+{
+	name: 'Recipe Mobile App',
+	category: 'Mobile Programming',
+	due_date: new Date('2017-03-04'),
+	technologies: ['Objective C', 'Java'],
+	developers: [
+		{
+			name:'Paul Rogers',
+			role: 'Head Programmer'		
+		},
+		{
+			name:'Bret Henry',
+			role: 'Designer'
+		}
+	],
+	client: {
+		name: 'Seth Young',
+		email: 'syoung@gmail.com',
+		phone: '222-222-2222'
+	},
+	cost: 12000
+}
+]);
+
